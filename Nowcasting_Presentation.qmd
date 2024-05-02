@@ -1,0 +1,86 @@
+---
+title: "NOWCASTING OF QUARTERLY, REAL GROSS DOMESTIC PRODUCT (GDP)"
+subtitle: "Quarterly Real GDP nowcasting Using the PMI, BTI and CIEA"
+author: "MINISTRY OF FINANCE, PLANNING AND ECONOMIC DEVELOPMENT"
+institute: "Macroeconomic Policy Department"
+date: "`r Sys.Date()`"
+format: 
+  beamer: 
+    aspectratio: 32
+    navigation: horizontal
+    colortheme: lily
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+
+:::{.incremental}
+
+\- item 1
+
+\- item 2
+
+\- item 3
+
+:::
+
+## Bullets
+
+When you click the **Render** button a document will be generated that includes:
+
+-   Content authored with markdown
+-   Output from executable code
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+Left column
+
+:::
+
+::: {.column width="60%"}
+
+Right column
+
+:::
+
+::::
+
+## Code
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+::: {.r-stack}
+
+\![\](../img/kitten1.jpeg){.fragment width="450"}
+
+\![\](../img/kitten2.jpeg){.fragment width="400"}
+
+\![\](../img/kitten3.jpeg){.fragment width="300"}
+
+:::
+
+## Background color and image
+
+Background color:
+
+```         
+## Background color and image  {background-color="red"} 
+```
+
+\## Background color and image {background-color="red"}
+
+Background image:
+
+```         
+## Background color and image  {background-image="<link-to-image>"} 
+```
+
+\## Background color and image {background-image="\<link-to-image\>"}
